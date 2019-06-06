@@ -1,0 +1,16 @@
+
+public class main {
+
+    public static void main(String[] args) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Windows".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (Exception ex) {
+        }
+        Splash splash = new Splash();
+    }
+}

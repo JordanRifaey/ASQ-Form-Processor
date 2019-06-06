@@ -1,0 +1,7 @@
+add machine learning for checkmark detection in skewed/shifted images
+disable scan and image clicking when images arent loaded
+add OCR support for text answers
+add auto search for sensitivity
+---------------------------------------------------------------------
+MarkDown language
+Work computers res: 1366 x 768
